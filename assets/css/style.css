@@ -1,7 +1,7 @@
-@font-face{
+@font-face {
   font-family: 'Eber';
-  src: url('../fonts/Eber.woff') format('woff');
-  font-weight: normal; font-style: normal; font-display: swap;
+  src: url('assets/Eber.woff?v=2') format('woff');
+  font-display: swap;
 }
 .eber { font-family: 'Eber', sans-serif; }
 
