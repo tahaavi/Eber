@@ -1,8 +1,13 @@
 @font-face{
   font-family:'Eber';
-  src: url('assets/Eber.woff?v=3') format('woff');
+  src:url('assets/Eber.woff?v=7') format('woff');
   font-weight:400;
   font-style:normal;
   font-display:swap;
 }
-html,body,* { font-family:'Eber', sans-serif !important; }
+
+/* Ota fontti käyttöön */
+html, body { font-family:'Eber', system-ui, sans-serif; }
+
+/* poista lopun ylimääräinen {}-lohko */
+
