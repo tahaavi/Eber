@@ -2,8 +2,6 @@ name: Deploy Pages
 on:
   push:
     branches: [ main ]
-with:
-  path: .
 
 permissions:
   contents: read
