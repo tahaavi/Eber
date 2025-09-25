@@ -1,7 +1,10 @@
-@font-face {
-  font-family: 'Eber';
-  src: url('assets/Eber.woff?v=2') format('woff');
-  font-display: swap;
+@font-face{
+  font-family:'Eber';
+  src: url('assets/Eber.woff?v=3') format('woff');
+  font-weight:400;
+  font-style:normal;
+  font-display:swap;
 }
-.eber { font-family: 'Eber', sans-serif; }
+html,body,* { font-family:'Eber', sans-serif !important; }
+.eber { font-family: 'Eber', sans-serif;}
 
