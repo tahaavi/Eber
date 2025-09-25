@@ -1,13 +1,10 @@
 @font-face{
   font-family:'Eber';
-  src:url('../fonts/Eber.woff?v=7') format('woff');
-  font-weight:400;
-  font-style:normal;
-  font-display:swap;
+  src:url('../fonts/Eber.woff2?v=9') format('woff2'),
+      url('../fonts/Eber.woff?v=9') format('woff');
+  font-weight:400; font-style:normal; font-display:swap;
 }
-
-/* Ota fontti käyttöön */
 html, body { font-family:'Eber', system-ui, sans-serif; }
+h1, h2, h3 { font-weight:400; } /* poistaa oletus-boldin testiksi */
 
-/* poista lopun ylimääräinen {}-lohko */
 
